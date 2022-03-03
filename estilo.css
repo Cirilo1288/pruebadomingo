@@ -1,0 +1,33 @@
+.body{
+	display: grid;
+	grid-template-areas: 
+	"imagen";
+	grid-template-columns: 100%;
+	grid-template-rows: auto;
+}
+
+.imagen {
+	grid-area: imagen;
+}
+
+.imagen{
+	width: 100%;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+
+.body{
+	display: grid;
+	grid-template-areas: 
+	"imagen";
+	grid-template-columns: 100%;
+	grid-template-rows: auto;
+}
+}
+
+
+
+
+
