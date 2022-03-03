@@ -28,6 +28,16 @@
 }
 
 
+@media only screen and (max-width: 320px) {
+
+.body{
+	display: grid;
+	grid-template-areas: 
+	"imagen";
+	grid-template-columns: 100%;
+	grid-template-rows: 100%;
+}
+}
 
 
 
